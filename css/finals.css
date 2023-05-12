@@ -200,6 +200,7 @@ align-items: center;
    align-items: center;
    margin-left: auto;
    margin-right: auto;
+   
 }
 .hero-b
 {
@@ -217,6 +218,7 @@ align-items: center;
     gap: 40px;
     border: none;
     outline: none;
+    /* box-shadow: 0 0 2px 1px; */
 }
 .hero-b select
 {
@@ -237,4 +239,67 @@ align-items: center;
     align-items: center;
     font-size: 18px;
     cursor: pointer;
+}
+.aboutus
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    padding: 200px 250px;
+}
+.aboutus .right-a
+{
+    width: 45%;
+    height: 550px;
+}
+.aboutus .left-a
+{
+    width: 40%;
+    height: 550px;
+}
+.aboutus .right-a span
+{
+    width: 200px;
+    height: 25%;
+
+}
+.aboutus .right-a span img 
+{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+}
+.aboutus .right-a .right-bottom
+{
+    width: 240px;
+    height: 280px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1400px;
+    left: 180px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 70px;
+    box-shadow: 0 0 5px;
+}
+.aboutus .right-a .right-bottom svg
+{
+    margin-left: autxo;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.aboutus .right-a .right-bottom h4
+{
+    font-size: 19px;
+    text-align: left;
+}
+.aboutus .right-a .right-bottom p
+{
+    text-align: left;
+    color:#7C8893;
 }
