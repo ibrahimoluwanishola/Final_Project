@@ -262,17 +262,54 @@
       /* height: 550px; */
   }
 
+  .aboutus .left-a .au {
+      color: #0061E0;
+      font-size: 25px;
+      margin-bottom: 30px;
+  }
+
+  .aboutus .left-a .change {
+      font-size: 50px;
+      width: 750px;
+      margin-bottom: 30px;
+  }
+
+  .aboutus .left-a .lorem {
+      width: 560px;
+  }
+
   .aboutus .left-a .left-a-svg {
       display: flex;
       margin: 50px 20px;
       gap: 30px;
   }
 
- .aboutus .left-a .left-a-svg .modern, 
- .aboutus .left-a .left-a-svg .secure {
-    width: 240px;
- }
+  .learn-more {
+    display: flex;
+    gap: 15px;
+  }
 
+  .learnnn {
+    margin-bottom: 50px;
+    color: #0061E0;
+  }
+
+  .aboutus .left-a .left-a-svg .modern,
+  .aboutus .left-a .left-a-svg .secure {
+      width: 240px;
+  }
+
+  .mod, .sec {
+    margin-top: 20px;
+  }
+
+  .aboutus .left-a .left-a-svg .modern .mod,
+  .mod-desc,
+  .sec,
+  .sec-pay {
+    /* margin: 10px 0; */
+    line-height: 25px;
+  }
 
   .aboutus .right-a span {
       width: 200px;
