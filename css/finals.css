@@ -285,13 +285,12 @@
   }
 
   .learn-more {
-    display: flex;
-    gap: 15px;
+      display: flex;
+      gap: 15px;
   }
 
-  .learnnn {
-    margin-bottom: 50px;
-    color: #0061E0;
+  .learn {
+      color: #0061E0;
   }
 
   .aboutus .left-a .left-a-svg .modern,
@@ -299,16 +298,17 @@
       width: 240px;
   }
 
-  .mod, .sec {
-    margin-top: 20px;
+  .mod,
+  .sec {
+      margin-top: 20px;
   }
 
   .aboutus .left-a .left-a-svg .modern .mod,
   .mod-desc,
   .sec,
   .sec-pay {
-    /* margin: 10px 0; */
-    line-height: 25px;
+      /* margin: 10px 0; */
+      line-height: 25px;
   }
 
   .aboutus .right-a span {
@@ -355,12 +355,102 @@
       color: #7C8893;
   }
 
+  .secondcont {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      /* display: block; */
+      margin: 30px 0;
+  }
+
+  .secondcont .exp .eih {
+      margin: 10px 0;
+      color: #0061E0;
+      font-size: 15px;
+  }
+
+  .secondcont .exp .oga {
+      font-size: 45px;
+      margin-bottom: 30px;
+  }
+
+  .secondcont .exp {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .secondcont .description-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .secondcont .description-row .per-desc {
+    width: 25%;
+    height: 400px;
+    margin: 0;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 9px 6px 8px #7C8893;
+  }
+
+  .secondcont .description-row .per-desc .house {
+    border-radius: 100px;
+    background-color: #7C8893;
+    margin: 40px;
+    padding: 0;
+  }
+
+  .bah {
+    font-size: 25px;
+  }
+
+  .fah {
+    margin-right: 10px;
+  }
+
+  .bahtxt {
+    margin: 30px;
+  }
+
+
+  .midcont {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0;
+  }
+
+  .midcont .midcont-icon {
+    display: flex;
+    justify-content: center;
+    background-color: #e2efff;
+    padding: 100px;
+    gap: 250px;
+  }
+
+  .midcont .midcont-icon .tractor .no {
+    margin: 20px 0;
+    font-size: 40px;
+  }
+
+
   .thirdcont {
       width: 100%;
       justify-content: space-evenly;
       align-items: center;
       display: block;
       margin: 30px 0 30px;
+  }
+
+  .find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .thirdcont .exp .eih {
